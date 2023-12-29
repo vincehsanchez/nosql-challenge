@@ -31,16 +31,16 @@ An exciting new halal restaurant just opened in Greenwich, but hasn't been rated
 Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 Make the following changes to the establishments collection:
-    1. Add new restaurant to database.
-    2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
-    3. Update the new restaurant with the BusinessTypeID you found.
+1. Add new restaurant to database.
+2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
+3. Update the new restaurant with the BusinessTypeID you found.
     
 The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority.
-    1. Remove any establishments within the Dover Local Authority from the database
-    2. Check the number of documents to ensure they were deleted.
-    3. Some of the number values are stored as strings, when they should be stored as numbers.
-    4. Use update_many to convert latitude and longitude to decimal numbers.
-    5. Use update_many to convert RatingValue to integer numbers.
+1. Remove any establishments within the Dover Local Authority from the database
+2. Check the number of documents to ensure they were deleted.
+3. Some of the number values are stored as strings, when they should be stored as numbers.
+4. Use update_many to convert latitude and longitude to decimal numbers.
+5. Use update_many to convert RatingValue to integer numbers.
 
 ### Part 3: Exploratory Analysis
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
